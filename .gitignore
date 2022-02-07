@@ -2,3 +2,5 @@
 /.project
 /camel-ose-springboot-xml.iml
 /target/
+/.idea/
+/.settings/
