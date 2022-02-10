@@ -9,7 +9,7 @@ public class MyRoute extends RouteBuilder{
 	@Override
 	public void configure() throws Exception {
 		
-		from("timer://foo?period=1000")
+		from("timer://foo?period=60000")
 		.setBody(simple("Prueba"))
 		.log("${body}");
 		
